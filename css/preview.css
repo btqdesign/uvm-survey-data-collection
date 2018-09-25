@@ -1,0 +1,342 @@
+input::-webkit-input-placeholder {
+    color:    blue;
+    font-weight: bold;
+    text-align: center;
+}
+input::-moz-placeholder {
+    color:    blue;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title{
+    font-size: 20px;
+    font-family: "Source Sans Pro",sans-serif;
+    line-height: 30px;
+    color: #3D3D3D;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+#figTop{
+  width: 40%;
+  height: 30%;
+  margin-top: 3%;
+  margin-left: 30%;
+}
+
+.imagen{
+  position: relative;
+  background-size: 90% 90%;
+  max-width: 280px;
+  background-repeat:no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+.titulo{
+  margin-top: 1%;
+  height: 13%;  
+  overflow: auto;
+}
+
+.cuerpo{
+  margin-top: 2%;
+  height: 33%;
+  width: 48%;
+  margin-left: 25%;
+  background-color: white;
+  overflow: auto;
+}
+
+.preguntas{
+  margin-top: 1%;
+  height: 48%;
+  background-color: white;
+  display: ;
+}
+
+.titlePreguntas{
+  margin-top: 1%;
+  height: 22%;  
+  overflow: auto;
+  word-wrap: break-word;
+}
+.zonarespuestas{
+  margin-top: 1%;
+  height: 64%;
+  width: 60%;
+  margin-left: 20%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  overflow: auto;
+}
+
+.pregAbierta{
+  border-radius: 5px;
+  width: 60%;
+  height: 40px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+
+}
+
+.botonContinuar{
+  width: 40%;
+  margin-left: 30%;  
+  height: 13%;  
+}
+
+.posCenterBoton{
+  position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.todo{
+            height: 100%;            
+}    
+
+
+#surveyContainer{
+  display: none;
+}
+
+
+
+#btnStart::hover, #btnStart::focus{
+    text-decoration-color: #000;
+    color: #000;
+}
+
+.bl_form {  
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+
+  background-color: #fff ;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  border: none;
+  color: black;
+  border-radius: 25px;
+  font-size: 16px;
+}
+
+
+.lb_wrap .lb_label.top, .lb_wrap .lb_label.bottom {
+  left: 15px !important;
+}
+
+.lb_wrap .lb_label.left {
+  left: 0;
+}
+
+.lb_label {
+  font-weight: bold;
+  color: #000;
+
+}
+
+.lb_label.active {
+  color: white;
+}
+
+@media screen and (max-width: 991px){
+	#descTemplate, #descripciondeEncuesta{
+		/*margin-left:25%;*/
+		/*margin-right:25%;*/
+}
+
+}
+
+@media screen and (max-height: 600px){
+.imagen{
+  max-height: 200px;
+}
+}
+
+
+@media screen and (max-width:550px){
+	label{
+	max-width:100%;
+	}
+
+#figTop{
+  width: 80%;  
+  margin-top: 3%;
+  margin-left: 10%;
+  height: 25%;
+}
+
+.cuerpo{
+  width: 90%;
+  margin-left: 5%;  
+}
+
+.botonContinuar{
+  width: 90%;
+  margin-left: 5%;    
+}
+
+.zonarespuestas{
+  margin-top: 1%;
+  width: 90%;
+  margin-left: 5%;
+  background-color: white;
+  overflow: auto;
+}
+
+.imagen{
+  max-width: 140px;
+}
+
+.title{
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+}
+
+html,body {
+    overflow-y:hidden; 
+    overflow-x:hidden;
+    margin:0px;
+    height:100%;
+}
+
+     #sumary{
+
+        height: 100%;
+
+     }
+     
+     .anchodiv{
+      /*height: 20%;*/
+      
+     }
+     .margenarriba{
+      margin-top: 30px;
+     }
+     .fondo{
+       background-color: white;
+       background-repeat: no-repeat;
+       background-position: right ; 
+     }
+     .total{
+      height: 60%;
+ 
+
+     }
+     .btnsiguiente{
+      width: 250px;
+      height: 80px;
+      background-color: #31B404;
+     }
+
+    .btnsta{
+      background-color: #ffeb3b;
+      width: 250px;
+      height: 80px;
+     }    
+
+.pregAbierta{
+  width: 90%;
+}
+
+
+     @media screen and(max-width: 900px){
+                html,body {
+
+                    overflow-y:hidden; 
+                    overflow-x:hidden;
+                    }
+	
+
+
+
+     }
+
+
+      @media screen and (max-width: 600px) {
+                html,body {
+
+                    overflow-y:hidden; 
+                    overflow-x:hidden;
+                    }
+    .btnsta{
+      background-color: #ffeb3b;
+      width: 250px;
+      height: 80px;
+     }       
+     
+      .divmovil{
+              overflow: auto;
+              background-color: rgba(221, 222, 214, 0.8); 
+      }
+
+      .btnsiguiente{                  
+                  width: 250px;
+                  height: 80px;
+                  background-color: #31B404;
+      }
+
+      }   
+   
+         @media screen and (max-width: 300px) {
+                html,body {
+
+                    overflow-y:hidden; 
+                    overflow-x:hidden;
+                    }
+    .btnsta{
+      background-color: #ffeb3b;
+      width: 105px;
+      height: 40px;
+     }   
+         
+
+             .divmovil{
+                height: 300%;
+                background-color: rgba(221, 222, 214, 0.8); 
+             }
+
+              .btnsiguiente{
+                  width: 250px;
+                  height: 80px;
+                  background-color: #31B404;
+             }
+
+      }
+
+      @media screen and (max-width: 800px) and (orientation: landscape) {
+                html,body {
+                    overflow-y:auto; 
+                    }
+
+      }
+          .scrolla{
+            background-color: white ;
+            height: auto;
+            overflow:auto;
+            padding-left: 15px;
+            padding-right: 15px;
+       }
+
+       .todo{        
+            background-color: white ;
+       }
+       .pregs{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+       }

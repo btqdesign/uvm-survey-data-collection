@@ -1,0 +1,4 @@
+Host:		uvm-encuestas.database.windows.net
+User:		uvm_encuestas
+Password:	MX?3ncu_2018
+DataBase:	SurveyCollector

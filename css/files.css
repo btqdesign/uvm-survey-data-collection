@@ -1,0 +1,146 @@
+body{
+	overflow-y: scroll;
+}
+
+.sectionListas{
+  font-weight:bold;
+  font-size: 30px;
+}
+
+.sectionCrear{
+	vertical-align: middle;
+	padding-top: 5px;
+}
+
+
+
+.lisSub{
+	background-color: rgba(170,170,170,0.5);
+}
+
+.IncSub{
+	background-color: rgba(205,205,205,0.5);		
+}
+
+
+.iconoHeaderTbl{
+	width: 10%;
+	text-align: center;
+}
+
+.descrHeaderTbl{
+	text-align: center;	
+}
+
+.btnLista{
+  color: #ffff;
+  font-family: 'Poppins', sans-serif;
+  background-color: #254f76;
+  border-color: #254f76;
+  font-weight:bold;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.headerFont{
+	/*background-color: #254f76;
+	color: white;*/
+	color: black;
+	text-align: center;
+
+}
+
+
+.tablaListas{
+	table-layout:auto;
+	text-align: center;
+}
+
+	.top{
+		margin-top: 1%;
+	}
+	#titulo{
+		    width: 98%;
+  	background-color: #cdcdcd;
+   color: black;
+   font-size: 1.5em;
+   padding: 1rem;
+   text-align: center;
+   margin-left: 1%;
+   border-radius: 5px;
+   margin-bottom: 7px;
+	}
+
+	.pad{
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+	.parrafo{
+		margin-top: 5%;
+		font-size: 50;
+		color: black;
+	}
+	.fondo{
+		background-color: #ECEAE6;
+	}
+
+	.container{
+		margin-top: 150px;
+	}
+	
+	@media screen and (max-width: 1110px) {
+		.headerFont{
+			font-size: 10px;
+		}
+
+	}
+
+	@media screen and (max-width: 900px) {
+		.headerFont{
+			font-size: 9px;
+		}
+
+	.tablaListas{
+		table-layout:auto;
+	}
+
+
+	}
+
+
+
+	@media screen and (max-width: 700px) {
+	.top{
+		margin-top: 30%;
+		margin-left: 5%;
+
+	}
+
+	.tablaListas{
+		table-layout:auto;
+	}
+	.headerFont{
+		font-size: 10px;
+	}
+
+
+}
+
+	@media screen and (max-width: 500px) {
+	.container{
+		margin-top: 100px;
+	}
+
+	.top{
+		margin-top: 30%;
+		margin-left: 5%;
+
+	}
+}
+	@media screen and (max-width: 300px) {
+	.top{
+		margin-top: 30%;
+		margin-left: 10%;
+
+	}
+	}

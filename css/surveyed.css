@@ -1,0 +1,132 @@
+.cont-cards
+{
+  
+}
+
+.horizontal
+{
+  width: 200px;
+    margin-left: -15px;
+    height: 120px;
+    border-radius: 5px;
+  display: inline-flex;
+    justify-content: center;
+}
+.vertical
+{
+
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.content-all
+{
+  width: 82%;
+  margin-left: 10%;
+  margin-right: auto;
+
+}
+#pEncuestas, #pEncuestas2
+{
+height: auto;
+max-height: 400px;
+overflow-y: scroll;
+}
+
+.barraGris{
+    background-color: #636b6f;
+    color: black;
+    font-weight: bold;
+    height: 30px;
+    text-align: left;
+    font-size: 14px;
+    padding-top: 5px;
+  }
+
+  /* remove outer padding */
+  .main .row{
+    padding: 0px;
+    margin: 0px;
+  }
+.card , .tarjetas{
+width: 210px;
+height: 280px;
+margin-right: 20px;
+margin-bottom: 20px;
+display: inline-block;
+}
+  body
+  {
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+@media (max-width: 360px) {
+.cont-cards{
+
+  width: 90%;
+  margin-left: 5%;
+}
+}
+
+@media  (max-width: 322px) {
+.panel
+{
+  width: 300px;
+  margin-left: 11px;
+}
+
+}
+  /*Remove rounded coners*/
+
+
+  /* Add gap to nav and right windows.*/
+
+  /* .....NavBar: Icon only with coloring/layout.....*/
+
+  /*small/medium side display*/
+
+
+  /* .....NavBar: Fully showing nav bar..... */
+  #sidebar-wrapper {
+  left: -200px;
+  width: 200px;
+    background: -webkit-linear-gradient(#616161,#212121, #000 );
+    background: -o-linear-gradient(#616161,#212121, #000 );
+    background: linear-gradient(#616161,#212121, #000 );
+  color: white;
+  position: fixed;
+  height: 100%;
+  z-index: 1;
+}
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  list-style: none;
+}
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 50px;
+}
+.sidebar-nav li a {
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+.sidebar-nav li a:hover {
+  background: rgba(255,255,255,0.25);
+  color: white;
+  text-decoration: none;
+}
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+  text-decoration: none;
+}
+#sidebar-wrapper.sidebar-toggle {
+  transition: all 0.3s ease-out;
+  margin-left: -200px;
+}

@@ -1,0 +1,128 @@
+.full-screen {
+  height: 100%;
+  position: relative;
+}
+.title {
+  text-align: center;
+  font-weight: 100;
+}
+.cards {
+  border-radius: 25px;
+  cursor: pointer;
+  height: 11em;
+  padding: 1.2em;
+  margin-top:9%;
+  position: relative;
+  -webkit-transition: height 0.4s, -webkit-box-shadow 0.5s;
+  transition: height 0.4s, -webkit-box-shadow 0.5s;
+  transition: height 0.4s, box-shadow 0.5s;
+  transition: height 0.4s, box-shadow 0.5s, -webkit-box-shadow 0.5s;
+}
+.cards .icon {
+  color: #fff;
+  font-size: 4em;
+  text-align: center;
+  padding: 0em;
+  position: relative;
+  top: 0em;
+  -webkit-transition: font-size .3s ease, left .3s ease;
+  transition: font-size .3s ease, left .3s ease;
+}
+.cards .title {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+.card-lider{
+  background: -webkit-linear-gradient(top left, #1b5e20, #4caf50, #ffca28);
+  background: -o-linear-gradient(top left, #1b5e20, #4caf50, #ffca28);
+  background: linear-gradient(to bottom right, #1b5e20, #4caf50, #ffca28);
+  text-align: center;
+}
+
+.card-encuestado{
+  background: -webkit-linear-gradient(top left, yellow, red);
+  background: -o-linear-gradient(top left, yellow, red);
+  background: linear-gradient(to bottom right, yellow, red);
+  text-align: center;
+}
+
+.card-administrador{
+  background: -webkit-linear-gradient(top left, #0f1973, #1a237e, #0d47a1);
+  background: -o-linear-gradient(top left, #0f1973, #1a237e, #0d47a1);
+  background: linear-gradient(to bottom right, #0f1973, #1a237e, #0d47a1);
+  text-align: center;
+}
+.img_UVM_logo{
+  height: 20%;
+  max-height: 20%;
+  margin-top: 1%;
+}
+.img_Por_ti_logo{
+  height: 200px;
+ }
+
+ @media screen and (min-width: 1200px) {
+   .img_UVM_logo{
+      margin-top: 2.51vw;
+   }
+ }
+
+@media screen and (min-width: 1500) {
+     .img_UVM_logo{
+      margin-top: 9%;
+   }
+}
+ @media screen and (max-width: 767px) {
+  .container{
+    margin-top: 0px !important;
+  }
+}
+
+
+@media screen and (max-width: 592px){
+  .container{
+    margin-top: 0px;
+  }
+  .img_Por_ti_logo{
+    display: none;
+  }
+  .img_UVM_logo{
+    background: linear-gradient(to bottom right, #bdbdbd, #212121);
+    content:url("/img/logos/UVM_Logo_Blanco.png");
+    margin-top: 0px;
+    width: 100%;
+    height: 23%;
+  }
+  .cards{
+    display: table;
+    width: 100%;
+    border-radius: 85px;
+    height: 5px;
+    margin-bottom: 6%,
+
+  }
+  .card-administrador{
+    margin-top: 13%;
+  }
+  .card-encuestado, .card-administrador, .card-lider{
+    text-align: left;
+  } 
+  .cards .icon{
+    display: inline-block;
+    font-size: 3em;
+    text-align: left;
+    padding: 0em;
+    position: relative;
+    left: 8%;
+  }
+  .title{
+    font-size: 25px;
+    margin-top: -36px;
+    margin-left: 15%;
+  }
+  .title-administrador{
+    margin-left: 25%;
+    font-size: 23px;
+  }
+}

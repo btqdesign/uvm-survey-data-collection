@@ -1,0 +1,933 @@
+.redesSocialesIcons{
+  text-align: center;
+  padding-top: 7px;
+}
+
+.container1
+{
+	margin-left: 250px;
+width: 100%;
+
+}
+		#imgSalida2
+		{
+			width: 80%;
+			border-radius: 5px;
+			margin-left: 10%;
+		}
+		.fdesc
+		{
+min-width: 222px;
+		max-width: 60%;
+	max-height: 70vh;
+
+		margin-left: 26%;
+		}
+
+		.horizontal
+		{
+			width: 220px;
+				margin-left: -15px;
+				height: 100%;
+				border-radius: 5px;
+				background-color:  rgba(205,205,205,0.4);
+				display: inline-flex;
+				justify-content: center;
+		}
+		.vertical
+		{
+
+			display: inline-flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.img
+			{
+					display: flex;
+			justify-content: center;
+			margin-right: auto;
+			margin-left: auto;
+			max-width: 98%;
+			max-height: 98%;
+			min-width: 98%;
+
+			border-radius: 5px;
+			}
+
+			.cont
+			{
+
+		display:inline-block;
+    margin-left: 0px;
+    margin-right: 30px;
+		 width: 210px;
+		 height: 220px;
+		 min-width: 220px;
+		 max-width: 220px;
+		border-radius: 5px;
+		 margin-bottom: 20px;
+
+			}
+
+.btn-icon
+{
+	background-color: rgba(0, 0, 0, 0.4);
+			color: #fff;
+			border: 0px solid black;
+			border-radius: 5px;
+}
+
+				.btnC
+				{
+
+					width: 100%;
+					height: 14%;
+					margin-top: 2%;
+					position: absolute;
+					margin-left: -15px;
+					text-align: center;
+				}
+				.principal
+				{
+
+					margin-left: 10rem;
+					width: 80%;
+
+
+				}
+
+				.title
+							{
+								margin-top: 78%;
+								margin-left: -15px;
+								position: absolute;
+								background-color: rgba(0,0,0,0.4);
+								width: 100%;
+								height: 22%;
+								border-radius: 5px;
+								color: #fff;
+								word-break: break-all;
+								word-wrap: break-word;
+							}
+
+.btnLista{
+  color: #ffff;
+  background-color: #254f76;
+  border-color: #254f76;
+  font-weight:bold;
+text-align: center;
+  vertical-align: middle;
+}
+
+body
+{
+  overflow-y: scroll;
+}
+#imgC
+{
+  height: 200px;
+  width: 100%;
+}
+
+
+
+
+
+#previewcanvascontainer, #previewcanvas
+{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#aPlantilla
+{
+  width: 100%;
+}
+
+
+#foto1
+{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#nombre{
+  width: 100%;
+  height: 100%;
+  margin-top: -4px;
+  border-radius: 4px;
+  position: relative;
+}
+
+
+.container
+{
+  width: 100%;
+}
+.descGeneral{
+  left: 37%;
+  position:absolute;
+  width: 43%;
+  margin-top:180px;
+}
+
+.sep{
+
+position relative;
+height: 150px;
+
+}
+.cuadro
+{
+  position: relative;
+  display: inline-block;
+  margin-top: -50px;
+  height:auto;
+  width: 100%;
+  margin-left: 2px;
+}
+
+.activa{
+
+width: auto;
+margin-right: 47px;
+display: inline-block;
+}
+
+.finalizada
+{
+  display: inline-block;
+
+  width: auto;
+}
+
+.redes
+{
+
+display: inline-block;
+position: relative;
+height: auto;
+width: 140px;
+margin-top: 3px;
+}
+.let
+{
+  margin-top: 10px;
+
+    display: inline-block;
+    width: 60%;
+    float: right;
+
+}
+.btnOcultar
+{
+
+  display: inline-block;
+  margin-left: 12px;
+}
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('/img/load/loader.gif') 50% 50% no-repeat rgb(249,249,249);
+    opacity: .8;
+}
+
+#procesando {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('/img/load/procesando.gif') 50% 50% no-repeat rgba(249,249,249,0.5);
+    opacity: .8;
+    display: none;
+}
+
+#icono
+{
+  width: 100px;
+  height: 100px;
+}
+
+#content-btn
+{
+  margin-top: 41%;
+  margin-left: -12px;
+width: 240px;
+
+font-size: 50px;
+text-align: center;
+color: #fff;
+}
+
+.card2
+{
+width: 230px;
+height: 240px;
+
+max-height: 240px;
+min-height: 240px;
+
+text-align: center;
+border: 3px solid gray;
+border-radius: 10px;
+margin-left: 30px;
+margin-bottom: 2%;
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+#crearPlantilla
+{
+width: 100%;
+color: #fff;
+position: relative;
+text-align: center;
+margin-top: -15%;
+
+}
+
+#marco
+{
+margin-top: 0%;
+border-radius: 2px;
+width: 100%;
+height: auto;
+border-radius: 33px 33px 33px 33px;
+-moz-border-radius: 33px 33px 33px 33px;
+-webkit-border-radius: 33px 33px 33px 33px;
+}
+
+.pub-icon
+{
+width: 100%;
+height: 135px;
+
+
+}
+.creador
+{
+width: 80%;
+height: 30%;
+text-align: center;
+  color: #000;
+font-family: fantasy;
+}
+
+.card
+{
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+display: inline-block;
+width: 240px;
+height: 240px;
+border-radius: 3px;
+margin-left: 1%;
+margin-bottom: 2%;
+padding-left: 0px;
+background-color: #DFDCE3;
+margin-top: 1%;
+padding-top: 0.5%;
+}
+
+
+.ic
+{
+vertical-align: top;
+height: 100%;
+margin-left: -6px;
+width: 100%;
+color: #fff;
+}
+
+
+/*Botones de encustas publicadas */
+#btn_prevPub, #btn_rec
+{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0.7;
+  height:  14%;
+  width: 14%;
+  border-radius: 5px;
+  margin-left: 4%;
+  margin-top: 1%;
+}
+#title
+{
+
+  color: #fff;
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+word-break: break-all;
+word-wrap: break-word;
+position: relative;
+text-align: center;
+}
+#ver
+{
+width: 100%;
+height: 22%;
+background-color: rgba(0,0,0,0.6);
+margin-top: 63%;
+    border-radius: 3px;
+position: absolute;
+}
+#ver2
+{
+  width: 80%;
+  height: 30px;
+opacity: 0.5;
+background-color: white;
+margin-top: 10px;
+margin-left: 10%;
+position: absolute;
+}
+
+
+
+.scroll{
+width: 90%;
+height: 400px;
+overflow-y: scroll;
+}
+
+
+#btnO:hover
+{
+
+cursor: pointer;
+}
+#btnOp:hover
+{
+  cursor: pointer;
+}
+#divisor
+{
+margin-left: 200px;
+margin-top: -15px;
+position: relative;
+}
+
+
+#publicadas
+{
+  width: 400px;
+}
+#pBody
+{
+  width: 100%;
+  height: auto;
+  max-height: 65vh;
+}
+
+#pPBody
+{
+  width: 100%;
+  height: auto;
+  max-height: 60vh;
+}
+.CCperfil
+{
+  position: absolute;
+  margin-left: 50%;
+}
+.CCperfil
+{
+  width: 400px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+box-shadow: 0 0 15px #ddd;
+position: relative;
+display: inline-block;
+color: #fff;
+}
+#titName
+{
+
+width: 50%;
+white-space:nowrap;
+text-overflow: ellipsis;
+display: inline-block;
+font-size: 15px;
+overflow: hidden;
+overflow: hidden;
+}
+#titEm
+{
+	margin-left: 35%;
+  white-space:nowrap;
+    text-overflow: ellipsis;
+}
+.Cperfil
+{
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin-left: 10px;
+  border-radius: 10px;
+box-shadow: 0 0 15px #ddd;
+background:rgb(0,0,255);
+position: relative;
+display: inline-block;
+color: #fff;
+}
+.cuadroPerfilSup
+{
+
+  background: rgba(37,66,118,1);
+  background: -moz-linear-gradient(-45deg, rgba(37,66,118,1) 0%, rgba(42,76,135,1) 51%, rgba(47,85,151,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(37,66,118,1)), color-stop(51%, rgba(42,76,135,1)), color-stop(100%, rgba(47,85,151,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(37,66,118,1) 0%, rgba(42,76,135,1) 51%, rgba(47,85,151,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(37,66,118,1) 0%, rgba(42,76,135,1) 51%, rgba(47,85,151,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(37,66,118,1) 0%, rgba(42,76,135,1) 51%, rgba(47,85,151,1) 100%);
+  background: linear-gradient(135deg, rgba(37,66,118,1) 0%, rgba(42,76,135,1) 51%, rgba(47,85,151,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#254276', endColorstr='#2f5597', GradientType=1 );
+  width: 300px;
+  height: 80px;
+  z-index: -1;
+  border-radius: 30px;
+  margin-top: 30px;
+	color: #fff;
+  position: relative;
+  margin-left: 70px;
+  display: inline-block;
+}
+.eng
+{
+  color: white;
+  position: relative;
+  margin-top: 1.5rem;
+  margin-left: 25%;
+  font-size: 23px;
+
+}
+#content{
+  display: inline-block;
+  width: 280px;
+  float: right;
+  color: white;
+  margin-right: 20px;
+  margin-top: -40px;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 80%;
+  font-size: 18px;
+
+}
+.nombre {
+	height: auto;
+	max-height: 40px;
+	text-align: center;
+	white-space: nowrap;
+	font-size: 16px;
+	font-weight: bold;
+}
+::-webkit-scrollbar {
+    width: 12px;
+      height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+.correo
+{
+  overflow: hidden;
+  height: 40px;
+  text-align:right;
+
+}
+.circle {
+    width: 125px;
+    height: 125px;
+    top: 10px;
+    display: inline-block;
+    margin-left: 0px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+}
+.circle:hover
+{
+  cursor: pointer;
+}
+.supSide
+{
+  position: absolute;
+  left: 53%;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+}
+
+#texto
+{
+width: 200px;
+overflow: hidden;
+  color: #fff;
+  margin-left: 90px;
+
+}
+#actualizar
+{
+width: 101%;
+margin-left: -2px;
+
+}
+
+#recibiendo
+{
+
+	padding-left: 25px;
+}
+#hTable
+{
+  width: 100%;
+}
+
+#hTable th
+{
+  text-align: left;
+
+}
+#hTable td
+{
+text-align: left;
+
+}
+
+#hTable2
+{
+  width: 100%;
+
+}
+#hTable2 th
+{
+  text-align: left;
+
+}
+
+#hTable2 td
+{
+text-align: left;
+
+}
+/*############################################################# Media querys##################################### */
+
+@media(max-width: 865px)
+{
+#tamañoLet
+{
+  font-size: 20px;
+}
+
+}
+
+@media(max-width: 850px)
+{
+  #btnT
+  {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+  }
+
+#btn-añadir
+{
+width: 70%;
+margin-left: 15%;
+margin-right: 15%;
+}
+
+  .card
+  {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+}
+
+@media(max-width: 768px)
+{
+.sep
+{
+  display: none;
+}
+#panel1
+{
+  margin-top: 110px;
+
+}
+.container
+{
+  margin-left: 0;
+}
+
+#content-btn
+{
+  margin-left: -100px;
+  margin-top: 30px;
+}
+#tamañoLet{
+  font-size: 35px;
+}
+#crearPlantilla
+{
+margin-top: -86px;
+margin-left: 20px;
+
+}
+.descGeneral{
+  width: 90%;
+  left: 5%;
+}
+
+.btn-toggle-center{
+  text-align: center !important;
+}
+
+.container1
+{
+
+  margin-left: 0px;
+  margin-top: 100px;
+}
+.fdesc
+{
+
+  width: 80%;
+  margin-left: 20%;
+}
+
+}
+@media(max-width: 1450px)
+{
+  #pBody
+  {
+    max-height: 58vh;
+  }
+  #pPBody
+  {
+    max-height: 58vh;
+  }
+
+
+}
+
+@media(max-width: 991px)
+{
+	#recibiendo
+	{
+
+width: 70%;
+margin-left: 15%;
+margin-right: 15%;
+text-align: center;
+	}
+#actualizar
+{
+
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#btn-crear{
+	display: inline-block;
+
+	width: 40%;
+}
+#btn-aC
+{
+	display: inline-block;
+	width: 40%;
+}
+
+#contRedes
+{
+	display: inline-block;
+	width: 40%;
+
+}
+#imgF, #imgT
+{
+	display: inline-block;
+
+	width: 20%;
+}
+#btn-aC2
+{
+
+	width: 40%;
+	display: inline-block;
+}
+
+#pHorizontal
+{
+	margin-left: 28%;
+}
+}
+
+
+
+@media(max-width: 930px)
+{
+.redesSocialesIcons
+{
+
+  margin-left: 10px;
+}
+}
+
+@media(max-width: 630px)
+{
+#tamañoLet
+{
+  font-size: 30px;
+}
+#content-btn
+{
+  margin-left: -25%;
+  font-size: 40px;
+  margin-top: 35px;
+}
+#crearPlantilla
+{
+  margin-left: 10%;
+  margin-top: -75px;
+}
+}
+@media(max-width: 569px)
+{
+  #tamañoLet
+  {
+    font-size: 25px;
+  }
+  #crearPlantilla
+  {
+    margin-top: -70px;
+  }
+}
+
+@media(max-width: 500px)
+{
+  #tamañoLet
+  {
+    font-size: 20px;
+  }
+  #content-btn
+  {
+    font-size: 30px;
+  }
+  #crearPlantilla
+  {
+    margin-top: -60px;
+  }
+
+	#pHorizontal
+	{
+		margin-left: 22%;
+	}
+}
+
+@media(max-width: 436px)
+{
+  #content-btn
+  {
+margin-left: 19px;
+margin-top: 26px;
+  }
+  #crearPlantilla
+  {
+    margin-top: -30px;
+    margin-left: 0;
+  }
+}
+
+
+@media(max-width: 409px)
+{
+
+#contRedes, #btn-crear
+{
+width: 50%;
+}
+
+}
+
+@media(max-width: 391px)
+{
+	#pHorizontal
+	{
+		margin-left: 10%;
+
+	}
+}
+@media(max-width: 344px)
+{
+
+#contRedes, #btn-crear
+{
+width: 60%;
+}
+#btn-aC2, #btn-aC
+{
+
+	width: 30%;
+margin-left: -10px;
+}
+
+}
+
+@media(max-width: 322px)
+{
+  #container, #panel1, #panel
+  {
+    width: 280px;
+    margin-left: 0;
+  }
+#sidebarMobile
+{
+  width: 322px;
+}
+
+#btn-aC2, #btn-aC
+{
+
+	width: 30%;
+	margin-left: -10px;
+
+}
+.container1, .fdesc
+{
+
+margin-left: 10%;
+}
+
+}
+
+
+/* ############################################################ media querys #####################################  */

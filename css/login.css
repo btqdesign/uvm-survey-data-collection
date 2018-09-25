@@ -1,0 +1,159 @@
+.contenedor{
+	overflow-x: hidden;
+}
+.img_UVM_logo{
+	margin-top: 1%;
+}
+.text-black{
+	color: #000;
+}
+.form-button-login{
+	text-align: center;
+}
+.form-control{
+	border-radius: 45px;
+	height: 45px;
+	border: 1px solid black;
+	width: 420px;
+}
+.form-control::placeholder {
+	color: white;
+}
+label{
+	font-size: 19px;
+    font-weight: normal;
+}
+.img_Por_ti_logo{
+	height: 200px;
+	width:280px;
+}
+
+.btn-primary{
+	width: 220px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #fc0404;
+    font-weight: bold;
+    font-size: 29px;
+
+}
+.form-container{
+	margin-bottom: 4%;
+}
+
+ @media screen and (min-width: 1200px) {
+   .img_UVM_logo{
+      margin-top: 2.51vw;
+   }
+ }
+
+@media screen and (min-width: 1500) {
+     .img_UVM_logo{
+      margin-top: 9%;
+   }
+}
+
+@media screen and (max-width: 1140px) {
+	.img_Por_ti_logo{
+		display: none;
+	}
+
+	.form-container{
+		left: 13%;
+		margin-bottom: 5%;
+	}
+	.form-horizontal .control-label{
+	    text-align: left;
+	    margin-left: 0px !important;
+	}
+	.form-group:nth-child(3){
+		margin-top: 3vw;
+	}
+	
+}
+@media screen and (max-width: 700px) {
+	.form-container{
+		left: 8%;
+	}
+}
+
+@media screen and (max-width: 1135px) and (min-width: 593px) {
+	.btn-primary{
+		margin-top: 0px;
+	}
+	.form-group{
+	   padding:0; margin:0;
+	}
+
+}
+
+@media screen and (max-width: 592px){
+	.contenedor{
+	    width: 100%;
+	    height: 100%;
+	    position: fixed;
+		overflow: auto;
+		background: -webkit-linear-gradient(#757575, #000 );
+		background: -o-linear-gradient(#757575, #000 );
+		background: linear-gradient(#757575, #000 );
+	}
+
+	.img_UVM_logo{
+		content:url("/img/logos/UVM_Logo_Blanco.png");	
+		margin-top: 2%;
+		width: 100%;
+		height: 23%;
+	}
+	label, .img_Por_ti_logo{
+		display: none;
+	}
+	.form-control{
+		width: 100%;
+		margin: 0px;
+		border: 1px solid white;
+		background-color: transparent;
+		font-size: 20px;
+		color: white;
+	}
+	.btn-primary{
+		margin: 12% 0px 0px 0px;
+		width: 100%;
+		border-radius: 62px;
+
+	}
+	.form-control:focus{
+		border-color: white;
+	}
+	.form-group{
+	   padding:0; margin:0;
+	   margin-top: 11vw !important;
+	}
+	.form-container{
+		left: 0px;
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+	.form-horizontal .control-label {
+	    text-align: initial ;
+	}
+}
+
+@media screen and (max-width: 992px) and (min-width: 593px) {
+	.form-container{
+		margin-left: 15vw;
+	}
+}
+
+@media screen and (max-width: 780px) and (min-width: 593px) {
+		.form-container{
+		margin-left: 7vw;
+	}
+}
+
+@media screen and (min-width: 781px) and (max-width: 865px){
+	.form-container{
+		margin-left: 9vw;
+	}
+}
